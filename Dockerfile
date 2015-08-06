@@ -1,3 +1,3 @@
 FROM rhel7.1
 
-CMD ["tail -f /dev/null"]
+CMD /usr/bin/tail -f /dev/null
